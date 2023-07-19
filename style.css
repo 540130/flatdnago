@@ -1,0 +1,54 @@
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://img.freepik.com/premium-photo/movie-clapperboard-shooting-videos-movies-orange-background-plenty-space-text_464654-378.jpg');
+    background-repeat: none;
+}
+h1{
+    padding: 0px;
+    font-size: x-large;
+    font-style: oblique;
+}
+.logo {
+    font-size: 3em;
+    color:black;
+    user-select: none;
+}
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: black;
+    text-decoration: dashed;
+    font-weight: 500;
+    margin-left: 40px;
+}
+#navigation{
+    display:inline-flex;
+}
+#navigation li{
+    margin: 20px;
+    font-size: 1.4em;
+
+}#navigation ul{
+    display: inline-flex;
+    margin-left: 800px;
+}
+#container{
+    display:inline-flex;
+}
+#footer{
+    height: 30vh;
+    text-align: center;
+}
+#footer form, #footer2{
+    font-size: 25px;
+    margin-left: 12vh;
+    font-weight: 200;
+}
+#watch{
+    font-size: 20px;
+}
+#login{
+    font-size: 20px;
+}
