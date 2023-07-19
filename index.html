@@ -1,66 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>Flattango Movies</title>
-        <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FLATDNAGO MOVIES</title>
+        <link rel="stylesheet" href="style.css">
     </head>
+    
     <body>
-
-        <div class="banner">
-            <div class="navbar">
-                <img src="logo.png" class="logo">
-            </div>
+        <div id="container">
+            <nav id="navigation">
+                <h1 class="logo">FLANTDNAGO MOVIES</h1>
+                <Ul>
+                    <li><a href="dashboard.html">Home</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contacts.html">Contact</a></li>
+                            <li><button class="buttonLogin-popup">Login</button></li>
+                </Ul>
+            </nav>
         </div>
-        <nav>
-            <div>Developed by Brian</div>
-            <ul>
-                <a href="index.html" target="_blank">Home</a>
-                <a href="index.html" target="_blank">About Us</a>
-                <a href="index.html" target="_blank">Contact Me</a>
-
-            </ul>
-            <div class="content">
-                <h1>Watch Your Favourite Movies</h1>
-                <p><button>SUBSCRIBE</button></p>
+        <div id="movies showing">
+            <h2 class="section-title">Welcome to the Dashboard</h2>
+        </div>
+        <div id="showing today">
+            <h3>Welcome to Flatdnago Movies,Watch All Day!!!</h3>
+        </div>
+        <h4>SHOWING TODAY:</h4>
+            <ol>
                 
-
-
-            </div>
-            <div>
-                <button type="button">WATCH MORE</button>
-                
-            </div>
-        </nav>
-        <div class="Movies">
-            <h2>Movies</h2>
-            <p>List of Movies</p>
-            <button>MOVIE LIST</button>
-            <ul>
                 <li>The Giant Gila Monster</li>
-                <img src="https://m.media-amazon.com/images/M/MV5BNDExMzhiZTktMjkwOS00ZDM1LWEyYmQtOWEyY2JjMjBjOTBkXkEyXkFqcGdeQXVyMTQ2MjQyNDc@._V1_.jpg">
+                <img src="https://m.media-amazon.com/images/M/MV5BNDExMzhiZTktMjkwOS00ZDM1LWEyYmQtOWEyY2JjMjBjOTBkXkEyXkFqcGdeQXVyMTQ2MjQyNDc@._V1_.jpg" width="300px">
 
                 <li>Manos: The Hands of Fate</li>
-                <img src="https://i.pinimg.com/736x/9d/48/8d/9d488dc32f4065cd0836765ea2c61d42--minimalist-movie-posters-the-hand.jpg">
+                <img src="https://i.pinimg.com/736x/9d/48/8d/9d488dc32f4065cd0836765ea2c61d42--minimalist-movie-posters-the-hand.jpg" width="300px">
 
                 <li>Time Chasers</li>
-                <img src="https://i0.wp.com/shinedesigninc.com/wp-content/uploads/2019/03/TimeChasers_Keyart_Instagram_FeatureImage_FeatureImage.jpg?fit=988%2C642">
+                <img src="https://i0.wp.com/shinedesigninc.com/wp-content/uploads/2019/03/TimeChasers_Keyart_Instagram_FeatureImage_FeatureImage.jpg?fit=988%2C642" width="600px">
 
                 <li>The Touch of Satan</li>
-                <img src="https://m.media-amazon.com/images/M/MV5BODVhMjQ3YjctMDA0Zi00YWQwLWJiZDQtMDM5ZDE3YTZhOGZkXkEyXkFqcGdeQXVyNjA3OTI5MjA@._V1_.jpg">
+                <img src="https://m.media-amazon.com/images/M/MV5BODVhMjQ3YjctMDA0Zi00YWQwLWJiZDQtMDM5ZDE3YTZhOGZkXkEyXkFqcGdeQXVyNjA3OTI5MjA@._V1_.jpg" width="300px">
 
                 <li>Santa Claus Conquers The Martians</li>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdSxvhdx7rT8eUl2u1bkDDWIL76EDpPf5ZwEnvgUF9FA&s">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdSxvhdx7rT8eUl2u1bkDDWIL76EDpPf5ZwEnvgUF9FA&s" width="500px">
 
-
-
-
-            </ul>
-
-
-
-
+            </ol>
+            <button type="submit" id="watch">Watch</button>
         </div>
+        <section id="footer">
+            <form>
+                <label for="name">Name:</label>
+                <input type="email" id="E-mail" required>
+
+                <label for="Comments">Comments</label>
+                <input type="watch" id="subscribe">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="E-mail">
+                <button type="submit">Submit</button>
+            </form>
+            <div id="footer2">
+                <p class="footer-text">FLATDNAGO MOVIES &copy; 2023</p>
+            </div>
+        </section>
+        <script src="script.js"></script>
+
     </body>
 
 </html>
